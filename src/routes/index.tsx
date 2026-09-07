@@ -25,7 +25,7 @@ export const Route = createFileRoute("/")({
 function Logo({ className = "" }: { className?: string }) {
   return (
     <img
-      src="/belmav-logo.svg"
+      src="/logo.png"
       alt="BelMav Info Tech — IT Consulting and Services. Empowering businesses. Delivering excellence."
       className={className}
       width={520}
@@ -103,7 +103,7 @@ function ComingSoon() {
       <div className="relative mx-auto flex min-h-screen max-w-6xl flex-col px-6 sm:px-10">
         {/* Header */}
         <header className="animate-rise flex items-center justify-between gap-4 py-6">
-          <Logo className="h-12 w-auto sm:h-16" />
+          <Logo className="h-24 w-auto sm:h-36" />
           <a
             href="#contact"
             className="rounded-sm border border-brand-black px-4 py-2 text-xs font-semibold tracking-[0.18em] uppercase transition-colors hover:bg-brand-black hover:text-background focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-red sm:px-5 sm:text-sm"

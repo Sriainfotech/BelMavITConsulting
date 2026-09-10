@@ -100,7 +100,7 @@ function ComingSoon() {
         <span className="absolute left-[6%] top-[24%] hidden h-2 w-2 bg-brand-red/60 lg:block" />
       </div>
 
-      <div className="relative mx-auto flex min-h-screen max-w-6xl flex-col px-6 sm:px-10">
+      <div className="relative mx-auto flex min-h-screen max-w-7xl flex-col px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <header className="animate-rise flex items-center justify-between gap-4 py-6">
           <Logo className="h-24 w-auto sm:h-36" />
@@ -115,7 +115,7 @@ function ComingSoon() {
         {/* Hero */}
         <main className="flex flex-1 flex-col justify-center py-14 sm:py-20">
           <p
-            className="animate-rise text-xs font-semibold tracking-[0.35em] text-brand-red uppercase"
+            className="animate-rise inline-block w-fit bg-brand-red px-3 py-1 text-lg font-semibold tracking-[0.35em] text-background uppercase sm:text-xl"
             style={{ animationDelay: "0.1s" }}
           >
             Coming soon
